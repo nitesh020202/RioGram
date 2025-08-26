@@ -8,13 +8,12 @@ import MainContent from './pages/Home/home';
 import PrivacyPolicy from './pages/Privacy/privacy';
 function App() {
   return (
-    <Router>
+    <Router basename="/RioGram">
       <Header />
       <Routes>
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/home" element={<MainContent />} />
-        <Route path="/" element={<MainContent />} />
         <Route path="/RioGram" element={<MainContent />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         {/* Other routes */}
