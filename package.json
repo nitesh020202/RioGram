@@ -2,6 +2,8 @@
   "name": "client-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nitesh020202.github.io/RioGram",
+
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
