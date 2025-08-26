@@ -1,4 +1,5 @@
 import React from 'react';
+import dummyPerson from '../../../images/dummy-person.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBriefcase,
@@ -704,7 +705,8 @@ const RioGramServices = () => {
               overflow: 'hidden'
             }}>
               <img 
-                src="../Screenshot 2025-07-03 182345.png" 
+                src={dummyPerson}
+
                 alt="Team Member" 
                 style={{
                   width: '100%',
@@ -739,7 +741,8 @@ const RioGramServices = () => {
                 fontSize: '20px',
                 margin: '10px 0 5px',
                 fontWeight: '700',
-                color: index % 2 === 0 ? '#0ea5e9' : 'inherit'
+                color:'#0ea5e9'
+                // color: index % 2 === 0 ? '#0ea5e9' : 'inherit'
               }}>
                 {index === 0 ? 'Sarah Johnson' : 
                  index === 5 ? 'Emily Rodriguez' : 'Michael Chen'}
